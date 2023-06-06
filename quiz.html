@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz do Igor</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div><strong>REGRAS</strong></div>
+    <div><i>Tente acertar o maior numero de respostas <br> Nao marque para verificar sem ter selecionado algo <br> No final ira aparecer seu score</i>  </div>
+    <div id="d1">QUAL MINHA COR FAVORITA?</div>
+    <input type="radio" name="p1" id="p1r1">
+    <label for="p1r1">Ciano</label>
+    <input type="radio" name="p1" id="p1r2">
+    <label for="p1r2">Azul</label>
+    <input type="radio" name="p1" id="p1r3">
+    <label for="p1r3">Preto</label>
+    <input type="radio" name="p1" id="p1r4">
+    <label for="p1r4">Roxo</label>
+    <div id="r1"><strong>RESPOSTA:</strong></div> 
+    <input id="ttt" type="button" value="verificar" onclick="this.onclick=null; ver1()">
+
+
+
+
+    <div id="d2">Qual o nome do meu pet?</div>
+    <input type="radio" name="p2" id="p2r1">
+    <label for="p2r1">Fufi</label>
+    <input type="radio" name="p2" id="p2r2">
+    <label for="p2r2">Bibinha</label>
+    <input type="radio" name="p2" id="p2r3">
+    <label for="p2r3">Meg</label>
+    <input type="radio" name="p2" id="p2r4">
+    <label for="p2r4">Marlon</label>
+    <div id="r2"><strong>RESPOSTA:</strong></div>
+    <input id="input2" type="button" value="verificar" onclick="this.onclick=null; ver2()">
+
+
+
+    <div id="d3">Qual foi a primeia profissão q realmente pensei em ser?</div>
+    <input type="radio" name="p3" id="p3r1">
+    <label for="p3r1">Pro player de Fortnite</label>
+    <input type="radio" name="p3" id="p3r2">
+    <label for="p3r2">Lixeiro</label>
+    <input type="radio" name="p3" id="p3r3">
+    <label for="p3r3">Policial</label>
+    <input type="radio" name="p3" id="p3r4">
+    <label for="p3r4">Programador</label>
+    <div id="r3"><strong>RESPOSTA:</strong></div>
+    <input id="input3" type="button" value="verificar" onclick="ver3()">
+
+
+
+    <div id="d4">Qual foi o nome da primeira menina q eu gostei?</div>
+    <input type="radio" name="p4" id="p4r1">
+    <label for="p4r1">Ana Terra</label>
+    <input type="radio" name="p4" id="p4r2">
+    <label for="p4r2">Paola</label>
+    <input type="radio" name="p4" id="p4r3">
+    <label for="p4r3">Ana luiza</label>
+    <input type="radio" name="p4" id="p4r4">
+    <label for="p4r4">Kawani</label>
+    <div id="r4"><strong>RESPOSTA:</strong></div>
+    <input id="input4" type="button" value="verificar" onclick="ver4()">
+
+
+
+    <div id="d5">Qual meu jogo Favorito?</div>
+    <input type="radio" name="p5" id="p5r1">
+    <label for="p5r1">Valorant</label>
+    <input type="radio" name="p5" id="p5r2">
+    <label for="p5r2">Ark</label>
+    <input type="radio" name="p5" id="p5r3">
+    <label for="p5r3">Lol</label>
+    <input type="radio" name="p5" id="p5r4">
+    <label for="p5r4">Fortnite</label>
+    <div id="r5"><strong>RESPOSTA:</strong></s></div>
+    <input id="input5" type="button" value="verificar" onclick="ver5()">
+    
+    
+    
+
+
+    <div id="res"></div>
+    <script src="quiz.js"></script>
+</body>
+</html>

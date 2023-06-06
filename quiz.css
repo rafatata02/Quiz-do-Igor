@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+    color: aqua;
+    
+}
+div#d1 {
+    margin-bottom: 15px;
+    margin-top: 45px;
+  }
+  div#r1 {
+    margin-top: 15px;
+  }
+  div#d2 {
+    margin-top: 45px;
+  }
+  div#res {
+    margin-top: 60px;
+  }
+  div#d3 {
+    margin-top: 45px;
+  }
+  div#r2 {
+    margin-top: 15px;
+  }
+  div#r3 {
+    margin-top: 15px;
+  }
+  div#d4 {
+    margin-top: 45px;
+  }
+  div#r4 {
+    margin-top: 15px;
+  }
+  div#d5 {
+    margin-top: 45px;
+  }
+  div#r5 {
+    margin-top: 15px;
+  }
